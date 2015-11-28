@@ -1,0 +1,18 @@
+{
+  "defaults": {
+    "from": "Git Watchman <noreply@localhost>",
+    "to": [
+      "your_default_email@example.com"
+    ]
+  },
+  "repos": [
+    {
+      "name": "Repository description",
+      "path": "/path/to/repo"
+    },
+    {
+      "name": "Another repository description",
+      "path": "/path/to/another/repo"
+    },
+  ]
+}
