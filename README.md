@@ -1,6 +1,8 @@
 # Git watchman
 This small script helps you to monitor `git status` of your repository instances. It's really good idea to monitor it in production to prevent unattended access.
 
+![Screenshot of email notification](http://spetrenko.ru/content/images/2015/11/Screen-Shot-2015-11-29-at-2-07-24-AM.png)
+
 ## Requirements
 * *nix based server
 * PHP 5.5+ and Git installed
