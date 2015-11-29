@@ -12,7 +12,11 @@
     },
     {
       "name": "Another repository description",
-      "path": "/path/to/another/repo"
+      "path": "/path/to/another/repo",
+      "to": [
+        "someone_else@example.com",
+        "my_dear_friend@hoho.com"
+      ]
     },
   ]
 }
