@@ -1,4 +1,0 @@
-Git Watchman errors & fatals log file
-Started at 29.11.2015 02:37:42
-
-29.11.2015 02:37:42 FATAL Cannot initiate queue: defaults in watchman.json is wrong.
