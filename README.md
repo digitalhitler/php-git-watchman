@@ -51,8 +51,9 @@ You can edit behavior of script as you want. For example you can modify it to se
 Please check if your server really can send emails. In most cases out-of-the-box Linux-based operating system use `sendmail` package to handle outgoing mail. Most of public mail services doesn't like senders like `root@localhost` and your message can be not delivered or marked as junk. In this case you can use SMTP-relay for sendmail. There are lots of MTA tools available to do this, for example [E-Mail relay](http://emailrelay.sourceforge.net/).
 
 ## Details
-This script I have used on the job to monitor production servers. Script has been changing through the years and now it's here.
+This script I have used on the job to monitor production servers. Script has been changing through the years and now it's here. Blog post about this (on russian): http://spetrenko.ru/status-monitor-git-watchman/
 
 ## Todo
 * Comment up and refactor code
 * Rename GitWatchmanException for logging
+* Make transport (like email, push etc.) more configurable and easy to extend.
